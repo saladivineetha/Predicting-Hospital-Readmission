@@ -31,13 +31,14 @@ Under the Curve).
 * Num_Diagnoses: Number of diagnoses.
 * A1C_Result: Result of the A1C test, if available (e.g., Normal, Abnormal).
 * Readmitted: Indicates whether the patient was readmitted to the hospital within a certain time frame (e.g., Yes, No).
-* service_utilization: Indicates how many time the patient visits  the hospital in a 30 days.
+* service_utilization: Indicates how many times the patient visits  the hospital in a 30 days.
 #### Challenge
-One specific challenge encountered in this project was the presence of many null values in the A1C_Result column. To address this, a classification model was developed to predict and fill in the missing values in the A1C_Result column based on other available features. Once the missing values were imputed, a predictive model for hospital readmission status was built using the completed dataset.
+One specific challenge encountered in this project was the presence of many null values in the A1C_Result column. To address this, a classification models was developed to predict and fill in the missing values in the A1C_Result column based on other available features. Once the missing values were imputed, a predictive model for hospital readmission status was built using the completed dataset.
 #### Technologies used:
 * Pandas
 * Numpy
 * Seaborn
+* Machine learning
 * Data Preprocessing
 * Data Engineering
 * Model Training
